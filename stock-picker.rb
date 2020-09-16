@@ -9,7 +9,7 @@ def stock_picker(stocks)
 
   for i in 0...stocks.length
     # ensures that when looping through the prices, sell date comes after buy date
-    for j in (i+1)...stocks.length
+    for j in (i+1)...stocks.length do
       if (stocks[j] - stocks[i]) > profit
         profit = stocks[j] - stocks[i]
         buy_date = i
