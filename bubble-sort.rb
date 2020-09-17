@@ -6,7 +6,7 @@ Bubble sort
 def bubble_sort(array)
   n = array.length
   
-  array.each do |number|
+  array.each do |element|
     # resets 'swapped' in each loop
     swapped = false
 
