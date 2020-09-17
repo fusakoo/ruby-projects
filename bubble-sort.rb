@@ -18,7 +18,10 @@ def bubble_sort(array)
       end
     end
   end
+  p array
 end
 
-p bubble_sort([4,3,78,2,0,2]) #=> [0,2,2,3,4,78]
-p bubble_sort([105,3,9,1,0,2,9,200,6,-1])
+bubble_sort([4,3,78,2,0,2]) #=> [0,2,2,3,4,78]
+bubble_sort([105,3,9,1,0,2,9,200,6,-1])
+bubble_sort(["a","c","dc","b","dba"])
+bubble_sort(["hi","hello","howdy","henlo","ciao"])
