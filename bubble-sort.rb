@@ -7,7 +7,10 @@ def bubble_sort(array)
   n = array.length
   
   array.each do |number|
+    # resets 'swapped' in each loop
     swapped = false
+
+    # inclusive for loop (that includes high value, n-1)
     for i in 1..n-1 do
       if array[i-1] > array[i]
         array[i-1], array[i] = array[i], array[i-1]
